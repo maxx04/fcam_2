@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2017.2.1 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.   -->
+
+<Project Version="7" Minor="20" Path="C:/Users/maxx/Documents/Projects/fcam_2/fcam_2.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="70cf8e989056454c88eb80b4be48ce93"/>
+    <Option Name="Part" Val="xc7s50ftgb196-1"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="CompiledLibDirXSim" Val=""/>
+    <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirIES" Val="$PCACHEDIR/compile_simlib/ies"/>
+    <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
+    <Option Name="TargetLanguage" Val="VHDL"/>
+    <Option Name="BoardPart" Val=""/>
+    <Option Name="SourceMgmtMode" Val="DisplayOnly"/>
+    <Option Name="ActiveSimSet" Val="pack_builder"/>
+    <Option Name="DefaultLib" Val="work"/>
+    <Option Name="CxlOverwriteLibs" Val="1"/>
+    <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
+    <Option Name="IPCachePermission" Val="disable"/>
+    <Option Name="EnableCoreContainer" Val="FALSE"/>
+    <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
+    <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
+    <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
+    <Option Name="EnableBDX" Val="FALSE"/>
+    <Option Name="DSANumComputeUnits" Val="16"/>
+    <Option Name="WTXSimLaunchSim" Val="10"/>
+    <Option Name="WTModelSimLaunchSim" Val="0"/>
+    <Option Name="WTQuestaLaunchSim" Val="0"/>
+    <Option Name="WTIesLaunchSim" Val="0"/>
+    <Option Name="WTVcsLaunchSim" Val="0"/>
+    <Option Name="WTRivieraLaunchSim" Val="0"/>
+    <Option Name="WTActivehdlLaunchSim" Val="0"/>
+    <Option Name="WTXSimExportSim" Val="0"/>
+    <Option Name="WTModelSimExportSim" Val="0"/>
+    <Option Name="WTQuestaExportSim" Val="0"/>
+    <Option Name="WTIesExportSim" Val="0"/>
+    <Option Name="WTVcsExportSim" Val="0"/>
+    <Option Name="WTRivieraExportSim" Val="0"/>
+    <Option Name="WTActivehdlExportSim" Val="0"/>
+    <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
+    <Option Name="XSimRadix" Val="hex"/>
+    <Option Name="XSimTimeUnit" Val="ns"/>
+    <Option Name="XSimArrayDisplayLimit" Val="1024"/>
+    <Option Name="XSimTraceLimit" Val="65536"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PDATADIR/sources_1/chipscope.xml">
+        <FileInfo SFType="ChipscopeDb">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Project/fcam/fcam.data/sources_1/chipscope.xml"/>
+          <Attr Name="ImportTime" Val="1353753780"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/useful.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../fcam/fcam.srcs/sources_1/useful.vhd"/>
+          <Attr Name="ImportTime" Val="1478375704"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/cam_lib.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../fcam/fcam.srcs/sources_1/cam_lib.vhd"/>
+          <Attr Name="ImportTime" Val="1478375704"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/cam_pkg.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../fcam/fcam.srcs/sources_1/cam_pkg.vhd"/>
+          <Attr Name="ImportTime" Val="1478375703"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/divider_n.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../fcam/fcam.srcs/sources_1/divider_n.vhd"/>
+          <Attr Name="ImportTime" Val="1478375703"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/cam_config.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../fcam/fcam.srcs/sources_1/cam_config.vhd"/>
+          <Attr Name="ImportTime" Val="1478375704"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/cam_code.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../fcam/fcam.srcs/sources_1/cam_code.vhd"/>
+          <Attr Name="ImportTime" Val="1478375704"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/i2c_master.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../fcam/fcam.srcs/sources_1/i2c_master.vhd"/>
+          <Attr Name="ImportTime" Val="1478375704"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rgb565_register_rom.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../fcam/fcam.srcs/sources_1/rgb565_register_rom.vhd"/>
+          <Attr Name="ImportTime" Val="1478375704"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/switch_fifo.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../fcam/fcam.srcs/sources_1/switch_fifo.vhd"/>
+          <Attr Name="ImportTime" Val="1478375703"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/crc_citt.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../fcam/fcam.srcs/sources_1/crc_citt.vhd"/>
+          <Attr Name="ImportTime" Val="1478375704"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/pack_builder_direct.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../fcam/fcam.srcs/sources_1/pack_builder_direct.vhd"/>
+          <Attr Name="ImportTime" Val="1478375704"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/edge.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../fcam/fcam.srcs/sources_1/new/edge.vhd"/>
+          <Attr Name="ImportTime" Val="1478375703"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/delayed_sig.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../fcam/fcam.srcs/sources_1/new/delayed_sig.vhd"/>
+          <Attr Name="ImportTime" Val="1478375703"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/frame_tester.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../fcam/fcam.srcs/sources_1/frame_tester.vhd"/>
+          <Attr Name="ImportTime" Val="1478375703"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ftdi_sync_ft245.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../fcam/fcam.srcs/sources_1/ftdi_sync_ft245.vhd"/>
+          <Attr Name="ImportTime" Val="1478375703"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/pack_builder.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../fcam/fcam.srcs/sources_1/pack_builder.vhd"/>
+          <Attr Name="ImportTime" Val="1478375703"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/cam_window.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../fcam/fcam.srcs/sources_1/cam_window.vhd"/>
+          <Attr Name="ImportTime" Val="1478375703"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/cam_board.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../fcam/fcam.srcs/sources_1/cam_board.vhd"/>
+          <Attr Name="ImportTime" Val="1478375704"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="cam_board"/>
+        <Option Name="TopLib" Val="work"/>
+        <Option Name="TopArchitecture" Val="Behavioral"/>
+        <Option Name="TopRTLFile" Val="$PPRDIR/../fcam/fcam.srcs/sources_1/imports/sources_1/imports/xc3s400-test/cam_board.vhd"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type=""/>
+      <File Path="$PSRCDIR/constrs_1/impl_1/cam_board.ucf">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../fcam/fcam.srcs/constrs_1/impl_1/cam_board.ucf"/>
+          <Attr Name="ImportTime" Val="1478375705"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_ftdi" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_ftdi">
+      <File Path="$PSRCDIR/constrs_ftdi/new/ftdi_constr.ucf">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Project/fcam/fcam.srcs/constrs_ftdi/new/ftdi_constr.ucf"/>
+          <Attr Name="ImportTime" Val="1350144302"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_crc" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_crc">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sim_crc/new/tb_crc16.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Project/fcam/fcam.srcs/sim_crc/new/tb_crc16.vhd"/>
+          <Attr Name="ImportTime" Val="1351420736"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="tb_crc16_ccit"/>
+        <Option Name="TopArchitecture" Val="Behavioral"/>
+        <Option Name="TopRTLFile" Val="$PSRCDIR/sim_crc/new/tb_crc16.vhd"/>
+        <Option Name="TransportPathDelay" Val="0"/>
+        <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SimMode" Val="post-implementation"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="pack_builder" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/pack_builder">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/pack_builder/new/tb_pack_builder.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Project/fcam/fcam.srcs/pack_builder/new/tb_pack_builder.vhd"/>
+          <Attr Name="ImportTime" Val="1351411504"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="tb_pack_builder"/>
+        <Option Name="TopArchitecture" Val="Behavioral"/>
+        <Option Name="TopRTLFile" Val="$PSRCDIR/pack_builder/new/tb_pack_builder.vhd"/>
+        <Option Name="TransportPathDelay" Val="0"/>
+        <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="xsim.simulate.runtime" Val="50000ns"/>
+        <Option Name="modelsim.simulate.runtime" Val="50000ns"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="tb_ftdi" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/tb_ftdi">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/tb_ftdi/new/sim_ft245.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../fcam/fcam.srcs/tb_ftdi/new/sim_ft245.vhd"/>
+          <Attr Name="ImportTime" Val="1478375704"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/tb_ftdi/new/sim_cam.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../fcam/fcam.srcs/tb_ftdi/new/sim_cam.vhd"/>
+          <Attr Name="ImportTime" Val="1361609730"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/tb_ftdi/new/tb_ftdi_sync_ft245.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../fcam/fcam.srcs/tb_ftdi/new/tb_ftdi_sync_ft245.vhd"/>
+          <Attr Name="ImportTime" Val="1478375704"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="tb_main"/>
+        <Option Name="TransportPathDelay" Val="0"/>
+        <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SimMode" Val="post-implementation"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="xsim.simulate.runtime" Val="5ms"/>
+        <Option Name="modelsim.simulate.runtime" Val="5ms"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="Questa">
+      <Option Name="Description" Val="Questa Advanced Simulator"/>
+    </Simulator>
+    <Simulator Name="Riviera">
+      <Option Name="Description" Val="Riviera-PRO Simulator"/>
+    </Simulator>
+    <Simulator Name="ActiveHDL">
+      <Option Name="Description" Val="Active-HDL Simulator"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="10">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7s50ftgb196-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7s50ftgb196-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+  </Runs>
+  <MsgRule>
+    <MsgAttr Name="RuleType" Val="1"/>
+    <MsgAttr Name="Limit" Val="-1"/>
+    <MsgAttr Name="NewSeverity" Val="CRITICAL WARNING"/>
+    <MsgAttr Name="Id" Val="Project 1-200"/>
+    <MsgAttr Name="Severity" Val="ANY"/>
+    <MsgAttr Name="ShowRule" Val="1"/>
+    <MsgAttr Name="RuleSource" Val="2"/>
+    <MsgAttr Name="StringIsRegExp" Val="0"/>
+    <MsgAttr Name="RuleId" Val="2"/>
+    <MsgAttr Name="Note" Val=""/>
+    <MsgAttr Name="Author" Val=""/>
+    <MsgAttr Name="CreatedTimestamp" Val=""/>
+  </MsgRule>
+</Project>

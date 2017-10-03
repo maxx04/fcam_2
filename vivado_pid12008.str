@@ -1,0 +1,85 @@
+/*
+
+Vivado v2017.2.1 (64-bit)
+SW Build 1957588 on Wed Aug  9 16:32:24 MDT 2017
+IP Build 1948039 on Wed Aug  9 18:19:28 MDT 2017
+
+Process ID: 12008
+License: Customer
+
+Current time: 	10/3/17 12:54:55 PM CEST
+Time zone: 	Central European Time (Europe/Berlin)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 2
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 16 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/java.exe
+Java library paths: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o;C:/WINDOWS/Sun/Java/bin;C:/WINDOWS/system32;C:/WINDOWS;C:/Xilinx/Vivado/2017.2/bin;C:/Xilinx/Vivado/2017.2/lib/win64.o;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/server;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin;C:/Xilinx/SDK/2017.2/bin;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/lib/nt64;C:/Xilinx/Vivado_HLS/2017.2/bin;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v8.0/bin;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v8.0/libnvvp;C:/ProgramData/Oracle/Java/javapath;C:/Windows/system32;C:/Windows;C:/Windows/System32/Wbem;C:/Windows/System32/WindowsPowerShell/v1.0/;C:/Program Files/Microsoft/Web Platform Installer/;C:/Program Files/Microsoft SQL Server/120/Tools/Binn/;C:/Program Files/Calibre2/;C:/Users/maxx/.dnx/bin;C:/Program Files/Microsoft DNX/Dnvm/;C:/Program Files (x86)/nodejs/;C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common;C:/Program Files (x86)/CMake/bin;c:/opencv/build/bin/Debug;C:/Program Files (x86)/GtkSharp/2.12/bin;C:/Program Files (x86)/Skype/Phone/;C:/Program Files (x86)/Microsoft Emulator Manager/1.0/;C:/Program Files/TortoiseSVN/bin;C:/Program Files/Microsoft SQL Server/130/Tools/Binn/;C:/Program Files/dotnet/;C:/Program Files/Git/cmd;C:/Users/maxx/AppData/Roaming/npm;C:/Users/maxx/AppData/Local/Microsoft/WindowsApps;C:/Program Files (x86)/sigasi;;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/bin;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/libexec/gcc/x86_64-w64-mingw32/6.2.0;.
+
+User name: 	maxx
+User home directory: C:/Users/maxx
+User working directory: C:/Users/maxx/Documents/Projects/fcam_2
+User country: 	DE
+User language: 	de
+User locale: 	de_DE
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.2
+RDI_DATADIR: C:/Xilinx/Vivado/2017.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.2/bin
+
+User preferences location: C:/Users/maxx/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/maxx/AppData/Roaming/Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: C:/Users/maxx/AppData/Roaming/Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	C:/Xilinx/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	C:/Users/maxx/Documents/Projects/fcam_2/.Xil/Vivado-12008-BBM
+
+GUI allocated memory:	174 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 478 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 59 MB (+59074kb) [00:00:08]
+// [Engine Memory]: 449 MB (+319363kb) [00:00:08]
+// bs:g (cg:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\maxx\Documents\Projects\fcam_2\fcam_2.xpr. Version: Vivado v2017.2.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// Tcl Message: open_project C:/Users/maxx/Documents/Projects/fcam_2/fcam_2.xpr 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/maxx/Documents/Projects/fcam_2/fcam_2.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 511 MB (+41214kb) [00:00:12]
+// [GUI Memory]: 65 MB (+3061kb) [00:00:15]
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 533 MB. GUI used memory: 39 MB. Current time: 10/3/17 12:55:00 PM CEST
+// Project name: fcam_2; location: C:/Users/maxx/Documents/Projects/fcam_2; part: xc7s50ftgb196-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 725.699 ; gain = 52.531 
+dismissDialog("Open Project"); // bs:g (cg:JFrame)
+// [Engine Memory]: 544 MB (+8135kb) [00:00:17]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i:JideTabbedPane (N:aJ, cg:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 1); // i:JideTabbedPane (N:aJ, cg:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Compile Order", 2); // i:JideTabbedPane (N:aJ, cg:JFrame)

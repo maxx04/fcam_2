@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="ftdi_din">
+			<Port Id="7" Dir="INOUT"/>
+			<Port Id="6" Dir="INOUT"/>
+			<Port Id="5" Dir="INOUT"/>
+			<Port Id="4" Dir="INOUT"/>
+			<Port Id="3" Dir="INOUT"/>
+			<Port Id="2" Dir="INOUT"/>
+			<Port Id="1" Dir="INOUT"/>
+			<Port Id="0" Dir="INOUT"/>
+		</Bus>
+		<Bus Id="cam_dout">
+			<Port Id="7" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Port Id="cam_sda" Dir="INOUT"/>
+		<Port Id="cam_scl" Dir="INOUT"/>
+		<Port Id="clk_out" Dir="OUT"/>
+		<Port Id="dclk" Dir="IN"/>
+		<Port Id="clk_in" Dir="IN"/>
+		<Port Id="reset" Dir="IN"/>
+		<Port Id="hd" Dir="IN"/>
+		<Port Id="ftdi_rxf" Dir="IN"/>
+		<Port Id="cam_reset" Dir="OUT"/>
+		<Port Id="debug1" Dir="OUT"/>
+		<Port Id="debug2" Dir="OUT"/>
+		<Port Id="ftdi_oe" Dir="OUT"/>
+		<Port Id="ftdi_rd" Dir="OUT"/>
+		<Port Id="ftdi_txe" Dir="IN"/>
+		<Port Id="ftdi_reset" Dir="OUT"/>
+		<Port Id="vd" Dir="IN"/>
+		<Port Id="cam_clk" Dir="OUT"/>
+		<Port Id="ftdi_wr" Dir="OUT"/>
+		<Port Id="ftdi_siwu" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

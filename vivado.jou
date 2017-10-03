@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2017.2.1 (64-bit)
+# SW Build 1957588 on Wed Aug  9 16:32:24 MDT 2017
+# IP Build 1948039 on Wed Aug  9 18:19:28 MDT 2017
+# Start of session at: Tue Oct  3 12:54:38 2017
+# Process ID: 12008
+# Current directory: C:/Users/maxx/Documents/Projects/fcam_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8328 C:\Users\maxx\Documents\Projects\fcam_2\fcam_2.xpr
+# Log file: C:/Users/maxx/Documents/Projects/fcam_2/vivado.log
+# Journal file: C:/Users/maxx/Documents/Projects/fcam_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/maxx/Documents/Projects/fcam_2/fcam_2.xpr
