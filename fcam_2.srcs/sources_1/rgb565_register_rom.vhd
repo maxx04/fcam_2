@@ -54,6 +54,7 @@ type array_32 is array (0 to 32) of std_logic_vector(15 downto 0 );
 
 );
 
+--
 	begin
 	-- rom_process
 process(clk)
