@@ -108,3 +108,8 @@ selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B:Jide
 // WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
 // TclEventType: DG_GRAPH_GENERATED
 // [GUI Memory]: 68 MB (+521kb) [00:02:49]
+// [GUI Memory]: 72 MB (+110kb) [00:05:20]
+// [GUI Memory]: 77 MB (+1273kb) [00:16:15]
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// [GUI Memory]: 81 MB (+604kb) [00:22:47]
+// TclEventType: FILE_SET_CHANGE
